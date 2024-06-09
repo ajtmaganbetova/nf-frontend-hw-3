@@ -10,15 +10,14 @@
     display: flex;
     gap: 20px;
     flex: 1;
-    justify-content: center;
+    justify-content: end;
     font-size: 16px;
-    align-items: center;
 }
 
 .logo {
     flex: 1;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
 }
 
@@ -35,7 +34,6 @@
 @media screen and (max-width: 1024px) {
     .logo {
         font-size: 16px;
-        text-align: left;
     }
     .links {
         font-size: 12px;

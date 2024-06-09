@@ -1,0 +1,25 @@
+.container {
+    padding: 0 160px;
+    display: flex;
+}
+
+.cardAll {
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardTitle {
+    font-weight: 600;
+}
+
+.author, .readTime {
+    font-size: 12px;
+}
