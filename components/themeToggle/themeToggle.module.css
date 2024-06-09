@@ -3,7 +3,6 @@
     height: 20px;
     border-radius: 50px;
     cursor: pointer;
-    background-color: black;
     position: relative;
     display: flex;
     align-items: center;
@@ -13,8 +12,6 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: white;
     position: absolute;
-    left: 2px;
     
 }
