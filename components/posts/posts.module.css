@@ -1,25 +1,53 @@
 .container {
-    padding: 0 160px;
-    display: flex;
+  padding: 0 160px;
+  display: flex;
 }
 
 .cardAll {
-    height: 310px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .cardBody {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .cardTitle {
-    font-weight: 600;
+  font-weight: 600;
 }
 
-.author, .readTime {
+.author,
+.readTime {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1280px) {
+  .cardTitle {
+    font-size: 18px;
+  }
+  .cardBody {
+    font-size: 14px;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cardTitle {
+    font-size: 16px;
+  }
+  .cardBody {
     font-size: 12px;
+    gap: 10px;
+  }
+  .container {
+    padding: 24px 0px;
+  }
+  .author,
+  .readTime {
+    font-size: 10px;
+  }
 }
