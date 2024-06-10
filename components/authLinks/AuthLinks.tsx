@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './authLinks.module.css'
-import Pagination from '../pagination/Pagination'
 import Link from 'next/link';
 
 const AuthLinks = () => {

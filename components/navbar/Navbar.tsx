@@ -11,7 +11,8 @@ const Navbar = () => {
         <div className={styles.logo}>medium alike</div>
         <div className={styles.links}>
             <ThemeToggle/>
-            {/* <Link href="/">Log in</Link> */}
+            <Link href="/">About</Link>
+            <Link href="/blog">Blog</Link>
             <AuthLinks/>
         </div>
     </div>
